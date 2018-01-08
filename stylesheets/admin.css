@@ -1,0 +1,19 @@
+
+/* Navigation, Logo-Left top */
+.adimg {
+	//margin-top: -10px;
+	max-width: 180px;
+}
+
+.page li {
+	display:inline;
+	padding: 10px;
+}
+
+.userordert {
+	text-align: center;
+	background-color: green;
+}
+.order {
+	text-align: center;
+}
