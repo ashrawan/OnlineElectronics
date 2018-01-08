@@ -3,7 +3,7 @@
 session_start(); 
 
 // Making database connection //
-$connection=mysqli_connect('localhost','root','','online_electronics');
+$connection=mysqli_connect('mysql://mysql:3306/','user35W','b7NGlw00DKxUvClI','sampledb');
 if(!$connection){
 	die("connection failed" .mysqli_error());
 }
