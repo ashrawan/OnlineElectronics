@@ -1,9 +1,13 @@
 
 <?php 
 session_start(); 
-
+$dbhost = getenv("MYSQL_SERVICE_HOST");
+$dbport = getenv("MYSQL_SERVICE_PORT");
+$dbuser = getenv("databaseuser");
+$dbpwd = getenv("databasepassword");
+$dbname = getenv("databasename");
 // Making database connection //
-$connection=mysqli_connect('mysql://mysql:3306/','user35W','b7NGlw00DKxUvClI','sampledb');
+$connection=mysqli_connect($dbhost, $dbuser, $dbpwd, $dbname);
 if(!$connection){
 	die("connection failed" .mysqli_error());
 }
