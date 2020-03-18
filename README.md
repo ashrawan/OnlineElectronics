@@ -1,5 +1,5 @@
 # OnlineElectronics
-Working demo: https://onlineelectro.000webhostapp.com/home.php
+Working demo: http://e-electronics.epizy.com
 
 #### Admin
 * username: admin
